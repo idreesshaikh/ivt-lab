@@ -14,7 +14,7 @@ public class GT4500Test {
 
   @BeforeEach
   public void init() {
-    mockPrimaryTorpedoStore = mock(TorpedoStore.class); // new TorpedoStore(10);
+    mockPrimaryTorpedoStore = mock(TorpedoStore.class);
     mockSecondaryTorpedoStore = mock(TorpedoStore.class);
     this.ship = new GT4500(mockPrimaryTorpedoStore, mockSecondaryTorpedoStore);
   }
