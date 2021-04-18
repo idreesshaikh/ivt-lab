@@ -1,7 +1,6 @@
 package hu.bme.mit.spaceship;
 
 import javax.lang.model.util.ElementScanner6;
-
 /**
 * A simple spaceship with two proton torpedo stores and four lasers
 */
