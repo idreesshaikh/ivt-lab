@@ -7,6 +7,9 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  		<sonar.projectKey>idreesshaikh_ivt-lab</sonar.projectKey>
+  		<sonar.organization>idreesshaikh</sonar.organization>
+  		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
 
 	<dependencies>
