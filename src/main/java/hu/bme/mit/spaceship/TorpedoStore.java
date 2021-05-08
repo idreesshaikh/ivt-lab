@@ -40,6 +40,7 @@ public class TorpedoStore {
 
     // simulate random overheating of the launcher bay which prevents firing
     //Save and resusing the Random
+    Random generator;
     try {
       generator = SecureRandom.getInstanceStrong();
     } catch (NoSuchAlgorithmException e) {
